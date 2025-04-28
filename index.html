@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PREPARACION BASICA</title>
+    <title>Preparación Básica</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>PREPARACIÓN BÁSICA</h1>
-        <p>Haz clic para iniciar la descarga</p>
-        
-        <!-- Botón de descarga -->
-        <a href="documento.pdf" download class="download-btn" id="downloadLink">Descargar PDF</a>
-        
-        <!-- Contador global -->
-        <div class="counter">
-            Descargas totales: <span id="downloadCount">0</span>
-        </div>
-    </div>
+    <header>
+        <h1>PREPARACION BASICA</h1>
+        <h2>RESUMEN DE CONTENIDOS PARA LA ENSEÑANZA MEDIA SUPERIOR</h2>
+    </header>
 
-    <!-- Conexión al JavaScript -->
+    <main>
+        <!-- Tabla de archivos -->
+        <div class="file-table">
+            <div class="file-row">
+                <div class="file-info">
+                    <span class="file-name">PB-A-2025.pdf</span>
+                    <span class="file-details">Peso: 2.4 MB | Última modificación: 15/05/2024</span>
+                </div>
+                <button class="download-btn" onclick="downloadFile('PB-A-2025.pdf')">Descargar</button>
+            </div>
+            <!-- Añade más filas según necesites -->
+        </div>
+
+        <!-- Contador de descargas -->
+        <div class="counter">
+            <h3>Descargas totales:</h3>
+            <p id="download-count">0</p>
+        </div>
+
+        <!-- Contacto -->
+        <div class="contact">
+            <h3>¿Sugerencias?</h3>
+            <p>Escibe a: 
+                <a href="mailto:camilo.kdt09@gmail.com">camilo.kdt09@gmail.com</a> o 
+                <a href="mailto:camilo09@nauta.cu">camilo09@nauta.cu</a>
+            </p>
+        </div>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
