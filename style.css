@@ -1,38 +1,110 @@
+/* Estilos generales */
 body {
-    background-color: #0a192f;
-    color: #ffffff;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-color: #0a192f; /* Azul oscuro */
+    color: #ffffff;
     margin: 0;
+    padding: 20px;
     text-align: center;
 }
 
-.container {
-    background-color: #172a45;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
 }
 
+header h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #ccd6f6;
+    font-weight: normal;
+}
+
+/* Tabla de archivos */
+.file-table {
+    max-width: 800px;
+    margin: 30px auto;
+    border: 1px solid #1e2a47;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.file-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #1e2a47;
+    background-color: #112240;
+}
+
+.file-row:last-child {
+    border-bottom: none;
+}
+
+.file-info {
+    text-align: left;
+}
+
+.file-name {
+    font-weight: bold;
+    display: block;
+}
+
+.file-details {
+    font-size: 0.9em;
+    color: #8892b0;
+}
+
+/* Botón de descarga */
 .download-btn {
-    background-color: #1e90ff;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 1rem 0;
-    transition: background-color 0.3s;
+    background-color: #64ffda;
+    color: #0a192f;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
 .download-btn:hover {
-    background-color: #0066cc;
+    background-color: #52d1b2;
 }
 
+/* Contador */
 .counter {
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #112240;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.counter h3 {
+    margin-top: 0;
+}
+
+#download-count {
+    font-size: 2em;
+    font-weight: bold;
+    color: #64ffda;
+}
+
+/* Contacto */
+.contact {
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #112240;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+.contact a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
