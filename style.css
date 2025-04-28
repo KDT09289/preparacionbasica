@@ -2,41 +2,29 @@ body {
     background-color: #0a192f;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
+    margin: 0;
     text-align: center;
 }
 
 .container {
     background-color: #172a45;
-    padding: 30px;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    max-width: 600px;
-}
-
-h1 {
-    margin-top: 0;
-    color: #64ffda;
 }
 
 .download-btn {
     background-color: #1e90ff;
     color: white;
-    border: none;
     padding: 12px 24px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 0;
-    cursor: pointer;
     border-radius: 5px;
+    display: inline-block;
+    margin: 1rem 0;
     transition: background-color 0.3s;
 }
 
@@ -45,7 +33,6 @@ h1 {
 }
 
 .counter {
-    font-size: 18px;
-    margin-top: 20px;
-    color: #ccd6f6;
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
